@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Collection - Wearable™</title>
+    <meta name="description" content="Discover our Sports collection - performance-driven design for active lifestyles. High-performance athletic wear for every sport.">
+    <link rel="canonical" href="https://yourdomain.com/sports.html">
+    <meta property="og:title" content="Sports Collection - Wearable™">
+    <meta property="og:description" content="Discover our Sports collection - performance-driven design for active lifestyles. High-performance athletic wear for every sport.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/sports.html">
+    <meta property="og:image" content="Media/stretching.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sports Collection - Wearable™">
+    <meta name="twitter:description" content="Discover our Sports collection - performance-driven design for active lifestyles. High-performance athletic wear for every sport.">
+    <meta name="twitter:image" content="Media/stretching.webp">
+    <link rel="preload" as="image" href="Media/stretching.webp">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="collection-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="Media/Asset 1.svg" alt="Wearable" class="nav-logo">
+                    <span class="nav-title">Wearable</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#collections" class="nav-link">Collections</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Collection Header -->
+    <section class="collection-header">
+        <div class="collection-hero">
+            <img src="Media/stretching.webp" alt="Sports Collection" class="hero-image">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Sports Collection</h1>
+                <p>Performance-driven design for active lifestyles</p>
+                <span class="collection-badge">High Performance</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-header">
+                <h2>Our Sports Gear</h2>
+                <p>High-performance athletic wear designed for maximum comfort and performance</p>
+            </div>
+            
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div class="product-details">
+                    <div class="product-images">
+                        <img src="" alt="" id="modalImage" class="main-image">
+                    </div>
+                    <div class="product-info">
+                        <h2 id="modalTitle"></h2>
+                        <p class="product-category" id="modalCategory"></p>
+                        <p class="product-description" id="modalDescription"></p>
+                        <div class="product-price" id="modalPrice"></div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                            <button class="btn btn-secondary">Save for Later</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="Media/Asset 1.svg" alt="Wearable" class="footer-logo">
+                    <h3>Wearable™</h3>
+                    <p>Essential. Effortless. Wearable.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Collections</h4>
+                        <ul>
+                            <li><a href="classics.html">Classics</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                            <li><a href="streetwear.html">Streetwear</a></li>
+                            <li><a href="artistic.html">Artistic</a></li>
+                            <li><a href="drops.html">Drops</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Wearable™. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="collection-script.js"></script>
+<!-- ...existing code... -->
+<!-- Example image with lazy loading -->
+<!-- <img src="Media/stretching.webp" alt="Athlete stretching" loading="lazy"> -->
+</body>
+</html> 
